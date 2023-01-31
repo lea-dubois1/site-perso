@@ -22,9 +22,9 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">A PROPOS</a></li>
-                        <li><a href="#">PORTFOLIO</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#presentation">A PROPOS</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </nav>
             </header>
@@ -40,26 +40,28 @@
 
         </div>
 
-        <section class="presentation">
-            <h2>PRESENTATION</h2>
-            <p>Actuellement en formation en développement web, j'aime relever des défis et résoudre des problèmes.<br>
-            Dans le futur, j'aimerais devenir developpeuse de jeux vidéos.</p>
+        <section class="presentation" id="presentation">
+            <div class="presentation-text-container">
+                <h2>PRESENTATION</h2>
+                <p>Actuellement en formation en développement web, j'aime relever des défis et résoudre des problèmes.<br>
+                Dans le futur, j'aimerais devenir developpeuse de jeux vidéos.</p>
+            </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <h2>PORTFOLIO</h2>
             <div class="card-grid">
 
-                <a class="card" href="#">
+                <!-- <a class="card" id="memory" href="#memory1">
                     <div class="card__background card8"></div>
                     
                     <div class="card__content">
                         <p class="card__category">JAVIER 2023</p>
                         <h3 class="card__heading">Memory</h3>
                     </div>
-                </a>
+                </a> -->
 
-                <a class="card" href="#">
+                <a class="card" id="CMS" href="#cms1">
                     <div class="card__background card7"></div>
                     
                     <div class="card__content">
@@ -68,7 +70,7 @@
                     </div>
                 </a>
 
-                <a class="card" href="#">
+                <a class="card" id="salles" href="#salles1">
                     <div class="card__background card6"></div>
                     
                     <div class="card__content">
@@ -77,7 +79,7 @@
                     </div>
                 </a>
 
-                <a class="card" href="#">
+                <a class="card" id="livre" href="#livre1">
                     <div class="card__background card5"></div>
                     
                     <div class="card__content">
@@ -86,7 +88,7 @@
                     </div>
                 </a>
 
-                <a class="card" href="#">
+                <a class="card" id="connexion" href="#connexion1">
                     <div class="card__background card4"></div>
                     
                     <div class="card__content">
@@ -95,7 +97,7 @@
                     </div>
                 </a>
 
-                <a class="card" href="#">
+                <a class="card" id="voyages" href="#voyages1">
                     <div class="card__background card3"></div>
                     
                     <div class="card__content">
@@ -104,7 +106,7 @@
                     </div>
                 </a>
 
-                <a class="card" href="#">
+                <a class="card" id="app" href="#app1">
                     <div class="card__background card2"></div>
                     
                     <div class="card__content">
@@ -113,7 +115,7 @@
                     </div>
                 </a>
 
-                <a class="card" href="#">
+                <a class="card" id="plateforme" href="#plateforme1">
                     <div class="card__background card1"></div>
                     
                     <div class="card__content">
@@ -125,12 +127,245 @@
             <div>
         </section>
 
-        <section class="contact">
+        <div id="memory1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">MEMORY</h3>
+                    <p>Languages utilisés : HTML, CSS, PHP, PDO</p><br><br>
+                    <p class="para_modal">Il faut :</p>
+
+                    <ul>
+                        <li>Pouvoir choisir le nombre de paires qui seront tirées au sort aléatoirement. Au minimum 3 paires différentes (6 cartes) au maximum 12 paires;</li>
+                        <li>Pouvoir montrer que l'on est le meilleur ! Donc rajouter un classement des 10 meilleurs joueurs;</li>
+                        <li>Des profils individuels en plus qui permettront aux joueurs de voir leur progression individuelle et leurs meilleurs scores;</li>
+                        <li>Utiliser les classes pour réaliser ce projet. Le minimum est une classe nommée Card.php, que vous utiliserez pour vos différentes cartes du jeu.</li>
+                    </ul>
+
+                    <div class="modal_liens">
+                        <a href="memory" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/lea-dubois1/memory" target="_blank">Lien vers le GitHub</a>
+
+                    </div>
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <div id="cms1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">MY CMS</h3>
+                    <p>Outil utilisé : WordPress, Woocommerce</p><br><br>
+                    <p>Consignes :</p><br>
+                    <p>Vous créez une entreprise spécialisée dans le conseil et la vente de produits et vous souhaitez mettre en ligne un site internet. 
+                        Vous avez fait le choix d'utiliser le CMS Wordpress. Vous avez donc pour mission d'installer Wordpress et de personnaliser le tout à votre image.
+                    </p><br>
+                    <p class="para_modal">Il faut :</p>
+
+                    <ul>
+                        <li>Une page d'accueil : elle doit mettre en avant votre entreprise, votre activité et vos produits phares;</li>
+                        <li>Une page “à propos de nous” qui présente votre entreprise et son histoire;</li>
+                        <li>Une page Boutique avec tous les produits à vendre de votre site et qui contiendra des catégories de produits et une page détail spécifique pour chaque produit;</li>
+                        <li>Une page contact doit également permettre aux visiteurs de contacter l'entreprise.</li>
+                    </ul>
+
+                    <div class="modal_liens">
+                        <a href="https://lea-dubois.students-laplateforme.io/mycms/wordpress/" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/lea-dubois1/moncms" target="_blank">Lien vers le GitHub</a>
+
+                    </div>
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <div id="salles1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">RéSERVATION DE SALLES</h3>
+                    <p>Languages utilisés : HTML, CSS, PHP, MySQLI</p><br><br>
+                    <p>Consignes :</p><br>
+                    <p>Vous décidez de créer un site permettant à vos utilisateurs de réserver une salle pour un événement ou autre.</p><br>
+                    <p class="para_modal">Il faut :</p>
+
+                    <ul>
+                        <li>Une page d'accueil qui présente votre site;</li>
+                        <li>Une page contenant un formulaire d'inscription ;</li>
+                        <li>Une page contenant un formulaire de connexion;</li>
+                        <li>Une page permettant de modifier son profil;</li>
+                        <li>Une page permettant de voir le planning de la salle;</li>
+                        <li>Une page permettant de voir une réservation;</li>
+                        <li>Un formulaire de réservation de salle.</li>
+                    </ul>
+
+                    <div class="modal_liens">
+                        <a href="reservation-salles" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/lea-dubois1/reservation-salles" target="_blank">Lien vers le GitHub</a>
+
+                    </div>
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <div id="livre1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">LIVRE D'OR</h3>
+                    <p>Languages utilisés : HTML, CSS, PHP, MySQLI</p><br><br>
+                    <p>Consignes :</p><br>
+                    <p>Vous décidez de créer un livre d'or permettant à vos utilisateurs de laisser leurs avis sur votre site.</p><br>
+                    <p class="para_modal">Il faut :</p>
+
+                    <ul>
+                        <li>Une page d'accueil qui présente votre site;</li>
+                        <li>Une page contenant un formulaire d'inscription. Dès qu'un utilisateur remplit ce formulaire, les données sont insérées dans la base de données et l'utilisateur est redirigé vers la page de connexion;</li>
+                        <li>Une page contenant un formulaire de connexion;</li>
+                        <li>Une page permettant de modifier son profil;</li>
+                        <li>Une page permettant de voir le livre d'or. Sur cette page on voit l'ensemble des commentaires, organisés du plus récent au plus ancien. Si l'utilisateur est connecté, sur cette page figure également un lien vers la page d'ajout de commentaire;</li>
+                        <li>Un formulaire d'ajout de commentaire. Il n'est accessible qu'aux utilisateurs connectés. Chaque utilisateur peut poster plusieurs commentaires.</li>
+                    </ul>
+
+                    <div class="modal_liens">
+                        <a href="livre-or" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/lea-dubois1/module-connection" target="_blank">Lien vers le GitHub</a>
+
+                    </div>
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <div id="connexion1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">MODULE DE CONNEXION</h3>
+                    <p>Languages utilisés : HTML, CSS, PHP, MySQLI, SQL</p><br><br>
+                    <p>Consignes :</p><br>
+                    <p>Vous décidez de créer un module de connexion permettant aux utilisateurs de créer leur compte, de se connecter et de modifier leurs informations.</p><br>
+                    <p class="para_modal">Il faut :</p>
+
+                    <ul>
+                        <li>Une page d'accueil qui présente votre site;</li>
+                        <li>Une page contenant un formulaire d'inscription ;</li>
+                        <li>Une page contenant un formulaire de connexion;</li>
+                        <li>Une page permettant de modifier son profil;</li>
+                        <li>Une page d'administration, accessible UNIQUEMENT pour l'utilisateur “admin”. Elle permet de lister l'ensemble des informations des utilisateurs présents dans la base de données.</li>
+                    </ul>
+
+                    <div class="modal_liens">
+                        <a href="module-connexion" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/lea-dubois1/module-connection" target="_blank">Lien vers le GitHub</a>
+
+                    </div>
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <div id="voyages1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">VOYAGES</h3>
+                    <p>Languages utilisés : HTML, CSS</p><br><br>
+                    <p>Consignes :</p><br>
+                    <p>Vous êtes passionnés de voyages. Vous décidez, avec votre groupe, de développer un site qui présente votre équipe et l'ensemble des pays / villes que vous avez ou rêvez de visiter.</p><br>
+                    <p class="para_modal">Il faut :</p>
+
+                    <ul>
+                        <li>Il doit y avoir une page d'accueil nommée “index.html”, puis une page par personne à l'image du pays choisi nommée avec le nom du pays;</li>
+                        <li>L'ensemble des pages doit être accessible depuis une barre de navigation avec deux listes déroulantes : accès aux pages pays via un sous-menu par continent et accès aux pages pays via un sous-menu par personne;</li>
+                        <li>Un fichier voyages.css sera créé pour styliser tous les éléments communs à l'ensemble du site.</li>
+                    </ul>
+
+                    <div class="modal_liens">
+                        <a href="voyages" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/fabien-ricca/voyages" target="_blank">Lien vers le GitHub</a>
+
+                    </div>
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <div id="app1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">APP FAVORITES</h3>
+                    <p>Languages utilisés : HTML, CSS</p><br><br>
+                    <p>Consignes :</p><br>
+                    <p>Développez un site web qui présente / vend au moins 3 de vos applications mobiles favorites.<br><br>
+                        Il doit y avoir une page de présentation générale ainsi qu'une page pour chacune des applications. Chacune de ces pages doit avoir son propre style, à l'image
+                        de l'application. Il doit y avoir des logos, des descriptions, des slogans, des impressions d'écran, des liens de téléchargement, des liens vers les réseaux sociaux...
+                    </p>
+
+                    <div class="modal_liens">
+                        <a href="app-favorites" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/lea-dubois1/app-favorites" target="_blank">Lien vers le GitHub</a>
+                    </div>
+
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <div id="plateforme1" class="modal">
+            <div class="modal_content">
+
+                <div class="texte_modal">
+
+                    <h3 class="titre_modal">SITE DE LA PLATEFORME</h3>
+                    <p>Languages utilisés : HTML, CSS (flexbox)</p><br><br>
+                    <p>Consignes :</p><br>
+                    <p>Grâce à vos compétences fraîchement acquises refaire la page d'acceuil du site de La Plateforme en incluant des images, des textes, des vidéos...</p>
+
+                    <div class="modal_liens">
+                        <a href="site-la-plateforme" target="_blank">Lien vers le site</a>
+                        <a href="https://github.com/lea-dubois1/site-la-plateforme" target="_blank">Lien vers le GitHub</a>
+
+                    </div>
+                </div>
+                
+                <a href="#" id="modal_close">&times;</a>
+
+            </div>
+        </div>
+
+        <section class="contact" id="contact">
             <h2>CONTACT</h2>
-            <a href="">Mon GitHub</a>
-            <a href="">Mon linkedin</a>
-            <a href="">Mon mail</a>
-            <a href="">Télécharger mon CV</a>
+            <a href="https://github.com/lea-dubois1">Explorez mon GitHub</a>
+            <a href="https://www.linkedin.com/in/l%C3%A9a-dubois-381a6a244/">Découvrez linkedin</a>
+            <a href="mailto:lea.dubois@laplateforme.io">Envoyez-moi un mail</a>
+            <a href="images/CV_lea_dubois.pdf"
+                download="CV_lea_dubois">Téléchargez mon CV</a>
         </section>
             
     </body>
