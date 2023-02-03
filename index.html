@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
         <title>Léa Dubois</title>
     </head>
     <body>
@@ -15,7 +16,7 @@
 
             <header>
 
-                <img src="images/" alt="">
+                <img src="images/logo.png" class="logo" alt="">
 
                 <label for="toggle">&#9776</label>
                 <input type="checkbox" id="toggle">
@@ -192,7 +193,7 @@
 
                 <div class="texte_modal">
 
-                    <h3 class="titre_modal">RéSERVATION DE SALLES</h3>
+                    <h3 class="titre_modal">R&#201;SERVATION DE SALLES</h3>
                     <p>Languages utilisés : HTML, CSS, PHP, MySQLI</p><br><br>
                     <p>Consignes :</p><br>
                     <p>Vous décidez de créer un site permettant à vos utilisateurs de réserver une salle pour un événement ou autre.</p><br>
@@ -361,11 +362,14 @@
 
         <section class="contact" id="contact">
             <h2>CONTACT</h2>
-            <a href="https://github.com/lea-dubois1">Explorez mon GitHub</a>
-            <a href="https://www.linkedin.com/in/l%C3%A9a-dubois-381a6a244/">Découvrez linkedin</a>
-            <a href="mailto:lea.dubois@laplateforme.io">Envoyez-moi un mail</a>
-            <a href="images/CV_lea_dubois.pdf"
-                download="CV_lea_dubois">Téléchargez mon CV</a>
+
+            <div class="liens-contact">
+                    <a href="https://github.com/lea-dubois1">Explorez mon GitHub</a>
+                    <a href="https://www.linkedin.com/in/l%C3%A9a-dubois-381a6a244/">Découvrez linkedin</a>
+                    <a href="mailto:lea.dubois@laplateforme.io">Envoyez-moi un mail</a>
+                    <a href="images/CV_lea_dubois.pdf"
+                        download="CV_lea_dubois">Téléchargez mon CV</a>
+            </div>
         </section>
             
     </body>
