@@ -470,7 +470,7 @@ header label
 {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
     padding: 5vh 0 3vh 0;
 }
 
@@ -662,6 +662,7 @@ header label
     .contact a
     {
         font-size: 2.5vh;
+        padding: 2vh;
     }
 
     .contact h2
@@ -669,6 +670,14 @@ header label
         font-size: 4vh;
     }
 
+    .liens-contact
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 90%;
+        padding: 0;
+    }
 }
 
 
@@ -847,15 +856,25 @@ header label
 
 
     /******************** contact ********************/
-
+    
     .contact a
     {
         font-size: 2.2vh;
+        padding: 2vh;
     }
 
     .contact h2
     {
         font-size: 3.5vh;
+    }
+
+    .liens-contact
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 80%;
+        padding: 0;
     }
 
 }
@@ -969,11 +988,21 @@ header label
     .contact a
     {
         font-size: 2.2vh;
+        padding: 2vh;
     }
 
     .contact h2
     {
         font-size: 3.5vh;
+    }
+
+    .liens-contact
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 49%;
+        padding: 0;
     }
 
 }
@@ -1047,6 +1076,11 @@ header label
     .contact h2
     {
         font-size: 3.5vh;
+    }
+
+    .liens-contact
+    {
+        width: 85%;
     }
 }
 
