@@ -320,42 +320,67 @@ header label
 
 .card1
 {
-    background-image: url(images/site-plateforme.png)
+    background-image: url(images/site-plateforme.png);
 }
 
 .card2
 {
-    background-image: url(images/app-favorites.png)
+    background-image: url(images/app-favorites.png);
 }
 
 .card3
 {
-    background-image: url(images/voyages.png)
+    background-image: url(images/voyages.png);
 }
 
 .card4
 {
-    background-image: url(images/module-connexion.png)
+    background-image: url(images/module-connexion.png);
 }
 
 .card5
 {
-    background-image: url(images/livre-or.png)
+    background-image: url(images/livre-or.png);
 }
 
 .card6
 {
-    background-image: url(images/reservation-salles.png)
+    background-image: url(images/reservation-salles.png);
 }
 
 .card7
 {
-    background-image: url(images/myCMS.png)
+    background-image: url(images/myCMS.png);
 }
 
 .card8
 {
-    background-image: url(images/memory.png)
+    background-image: url(images/memory.png);
+}
+
+.card9
+{
+    background-image: url(images/todolist.jpg);
+}
+
+.card10
+{
+    background-image: url(images/clicker.png);
+}
+
+.card11
+{
+    background-image: url(images/autocompletion.png);
+}
+
+.card12
+{
+    background-image: url(images/boutique.png);
+}
+
+.card13
+{
+	background-image: url(images/super-week.png);
 }
 
 
@@ -674,6 +699,7 @@ header label
     {
         display: flex;
         justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         width: 90%;
         padding: 0;
